@@ -47,29 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD2zXbAiTxB56swdNKpjZNYswFiVHtG4vI',
-    appId: '1:918605907062:android:6d0ea8d80cd8416a080b57',
-    messagingSenderId: '918605907062',
-    projectId: 'space-text-1a5c7',
-    storageBucket: 'space-text-1a5c7.appspot.com',
+    apiKey: 'AIzaSyDg9eDYek_tcPJvSjJhDcrxPO9DMp2QeU4',
+    appId: '1:83704657261:android:d6c7a3ccac0c19ca319664',
+    messagingSenderId: '83704657261',
+    projectId: 'spacespace-d0912',
+    storageBucket: 'spacespace-d0912.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBq0aBOxlAWlNvLjwzCH9tcf3Rf7NtpdGU',
     appId: '1:918605907062:ios:9d3a818e244e997f080b57',
     messagingSenderId: '918605907062',
-    projectId: 'space-text-1a5c7',
-    storageBucket: 'space-text-1a5c7.appspot.com',
+    projectId: 'spacespace-d0912',
+    storageBucket: 'spacespace-d0912.appspot.com',
     iosBundleId: 'com.joy.spaceTexting',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCRsUa-_bRFe-OMBuatmdpe1Y6CqXPPv7M',
-    appId: '1:918605907062:web:a2f950d851786edb080b57',
-    messagingSenderId: '918605907062',
-    projectId: 'space-text-1a5c7',
-    authDomain: 'space-text-1a5c7.firebaseapp.com',
-    storageBucket: 'space-text-1a5c7.appspot.com',
-    measurementId: 'G-ZQD4Y6VY8Y',
+    apiKey: "AIzaSyA9t9OFlroVHy1YWWkbV0WwSxNO8Z1-sT0",
+    authDomain: "spacespace-d0912.firebaseapp.com",
+    projectId: "spacespace-d0912",
+    storageBucket: "spacespace-d0912.firebasestorage.app",
+    messagingSenderId: "83704657261",
+    appId: "1:83704657261:web:c6e9f8531e411d30319664",
+    measurementId: "G-WZFFCMVN34"
   );
 }

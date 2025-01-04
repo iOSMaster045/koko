@@ -102,7 +102,7 @@ class SelectChatView extends GetView<SelectChatController> {
                           trailing: ElevatedButton(
                             onPressed: () {
                               Share.share(
-                                  'check out my App https://example.com');
+                                  'Check out my App Space Texting Calling, Use following link to downlaod: https://play.google.com/store/apps/details?id=com.joy.space_texting');
                             },
                             child: const Text("Invite"),
                           ),

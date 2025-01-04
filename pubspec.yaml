@@ -24,7 +24,7 @@ dependencies:
   firebase_messaging: 15.1.0
   giphy_get: ^3.5.6
   socket_io_client: ^3.0.0
-  contacts_service: ^0.6.3
+  contacts_service: ^0.6.2
   video_player: ^2.9.2
   firebase_storage: ^12.2.0
   file_picker: ^8.0.5

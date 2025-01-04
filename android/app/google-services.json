@@ -1,26 +1,51 @@
 {
   "project_info": {
-    "project_number": "918605907062",
-    "project_id": "space-text-1a5c7",
-    "storage_bucket": "space-text-1a5c7.appspot.com"
+    "project_number": "83704657261",
+    "project_id": "spacespace-d0912",
+    "storage_bucket": "spacespace-d0912.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:918605907062:android:6d0ea8d80cd8416a080b57",
+        "mobilesdk_app_id": "1:83704657261:android:d6c7a3ccac0c19ca319664",
         "android_client_info": {
           "package_name": "com.joy.space_texting"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "83704657261-fusgk1o0e0ong7lpim4i3cot5q12lrni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joy.space_texting",
+            "certificate_hash": "0000374234d0e80bcd8fc77bfb3045f85c738c76"
+          }
+        },
+        {
+          "client_id": "83704657261-090fbc9cgttj7irfd5jetbemr5n3cl0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
-          "current_key": "AIzaSyD2zXbAiTxB56swdNKpjZNYswFiVHtG4vI"
+          "current_key": "AIzaSyDg9eDYek_tcPJvSjJhDcrxPO9DMp2QeU4"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83704657261-090fbc9cgttj7irfd5jetbemr5n3cl0q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "83704657261-0bp114rebrsefbjrb9v98qe3s24uu647.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.joy.spaceTexting"
+              }
+            }
+          ]
         }
       }
     }

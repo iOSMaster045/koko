@@ -312,7 +312,7 @@ class _ChatViewState extends State<ChatView> {
                                               ),
                                             ),
                                             if (snapshot.hasData)
-                                              Text(
+                                              Text( snapshot.data!.data() == null ? "" :
                                                 snapshot.data!.data()![
                                                             "isOnline"] &&
                                                         isRecentlyActive((snapshot
@@ -336,7 +336,8 @@ class _ChatViewState extends State<ChatView> {
                                                                 as Timestamp)
                                                             .toDate()),
                                                 style: TextStyle(
-                                                  color: snapshot.data!
+                                                  color:  snapshot.data!
+                                                          .data() != null && snapshot.data!
                                                           .data()!["isOnline"]
                                                       ? Colors.greenAccent
                                                       : Colors.grey[300],

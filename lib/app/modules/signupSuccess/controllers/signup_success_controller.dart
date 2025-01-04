@@ -119,6 +119,16 @@ class SignupSuccessController extends GetxController {
   Future<Map<String, dynamic>> _registerUser(String phoneNumber,
       String? notificationToken, String firebaseToken) async {
     final url = ApiEndpoints.register; // Your API URL
+    print("------------------");
+    print(firebaseToken);
+    print("------------------");
+
+    final body = jsonEncode({
+          'phoneNumber': phoneNumber,
+          'notificationToken': notificationToken,
+          "uid": FirebaseAuth.instance.currentUser!.uid,
+        });
+
     try {
       final response = await http.post(
         Uri.parse(url),
@@ -126,11 +136,7 @@ class SignupSuccessController extends GetxController {
           'Content-Type': 'application/json',
           'Authorization': 'Bearer $firebaseToken', // Add Bearer token here
         },
-        body: jsonEncode({
-          'phoneNumber': phoneNumber,
-          'notificationToken': notificationToken,
-          "uid": FirebaseAuth.instance.currentUser!.uid,
-        }),
+        body: body,
       );
 
       if (response.statusCode == 201) {

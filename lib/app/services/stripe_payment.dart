@@ -7,7 +7,7 @@ import 'package:flutter_stripe/flutter_stripe.dart';
 
 class StripePaymentService {
   static const String firebaseFunctionUrl =
-      'https://us-central1-space-text-1a5c7.cloudfunctions.net/createPaymentIntent';
+      'https://us-central1-spacespace-d0912.cloudfunctions.net/createPaymentIntent';
 
   Future<String?> createPaymentIntent(String amount, String currency) async {
     try {
